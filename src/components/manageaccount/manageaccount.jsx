@@ -36,7 +36,7 @@ function Manageaccount() {
                         if (confirmedemail(emailref.current.value)) {
                             onpasswordresetemail(emailref.current.value, () => {
                                 setaccountstepmsg({ text: "Email sent!", color: "success" });
-                                //$start counter
+                                Cookies.setcookies({ sitetype: { value: "react", expires: "Thu, 18 Dec 2030 12:00:00 UTC" } });
                             });
                         } else {
                             handle((dispatch) => {
@@ -73,6 +73,7 @@ function Manageaccount() {
                             action: () => {
                                 onemailverification(() => {
                                     setaccountstepmsg({ text: "Email sent!", color: "success" });
+                                    Cookies.setcookies({ sitetype: { value: "react", expires: "Thu, 18 Dec 2030 12:00:00 UTC" } });
                                 });
                             }
                         });
