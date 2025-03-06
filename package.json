@@ -1,0 +1,47 @@
+{
+  "name": "adidas_shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "cra-template": "1.2.0",
+    "firebase": "^11.2.0",
+    "multi-range-slider-react": "^2.0.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.1.4",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^9.2.3",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "swiper": "^11.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "web-vitals": "^4.2.4"
+  }
+}

@@ -1,0 +1,33 @@
+.storepricerange{
+    box-shadow: none !important;
+    border: none !important;
+    width: 60% !important;
+    margin: 20px 0px 5px 0px;
+}
+.storepricerange div{
+    border: none !important;
+    box-shadow: none !important;
+}
+.thumb::before{
+    content: "";
+    border: none !important;
+    box-shadow: none !important;
+}
+.min-caption,
+.max-caption
+{
+    background-color: var(--bs-offcanvas-bg) !important;
+    color: var(--menucolor) !important;
+    box-shadow: none !important;
+}
+.min-caption::after,
+.max-caption::after{
+    font-family: "symbols";
+    content: "\f107";
+    position: absolute;
+    left: 30%;
+    bottom: 8px;
+    height: 10px;
+    font-size: 10px;
+    color: var(--menucolor);
+}

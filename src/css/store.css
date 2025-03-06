@@ -1,0 +1,321 @@
+.storeheadersec
+{
+    background-color: #ffffff;
+    margin: auto;
+    width: 1920px;
+    height:30vw;
+    max-height: 600px;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.storeheadersec:hover>.headerbuttons
+{
+    right: 2%;
+}
+.storeproductscon
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 1920px;
+    margin: auto;
+    margin-top: -270px;
+    position: relative;
+    top: 0px;
+    z-index: 5;
+    background: linear-gradient(180deg,transparent 0px,var(--secbg) 280px 100%);
+}
+.controlsec
+{
+    width: 20%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    position: relative;
+    top: 0px;
+}
+.controls
+{
+    position: sticky;
+    top: 0px;
+    height: 27%;
+    width: 100%;
+    padding-top: 13%;
+    background-color: #eff1f5;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.247);
+}
+.controls>header
+{
+    font-family: "symbols";
+    color: #000000;
+    font-size: 24px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+.controls>div>section
+{
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navigator
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--secbg);
+    padding-bottom: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.navigator>button
+{
+    border: 0px solid;
+    background-color: var(--mid);
+    color: var(--title);
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "symbols";
+    font-size: 20px;
+    transition-property: width height;
+    transition-duration: 1s;
+}
+.navigator>button:hover
+{
+    background-color: #333f5080;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+}
+.productsize>input
+{
+    font-size: 20px;
+    border-radius: 4%/25%;
+    padding-left: 5%;
+    border: 0px solid;
+}
+.productsize>input:focus
+{
+    outline: 0px solid;
+} 
+.pricerang>div
+{
+    color: var(--title);
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+.menubtn{
+    display: inline;
+    z-index: 99;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: var(--dark);
+    outline: none;
+    border: none;
+    color: var(--title);
+    font-family: symbols;
+}
+.menuclosebtn{
+    background-color: var(--secbg);
+}
+.filtermenucon{
+    color: var(--menucolor);
+    max-width: 400px;
+    position: relative;
+    top: 0px;
+    padding-top: 70px;
+}
+.offcanvas{
+    background-color: transparent;
+}
+.offcanvas-start{
+
+    border-right: 0px solid !important;
+}
+.filtermenu{
+    width: 400px;
+    position: sticky;
+    top: 60px;
+    padding-bottom: 1px;
+}
+.filtermenu>section{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 60px;
+    margin-bottom: 70px;
+}
+.gfilter>input{
+    box-sizing: unset;
+    width: 20px;
+    height: 20px;
+    accent-color: var(--midlight);
+}
+.gfilter>label{
+    margin-left: 20px;
+}
+.sizefilter>input{
+    font-size: 18px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--secbgmid);
+    padding: 0px 20px;
+    appearance: textfield;
+
+}
+.sizefilter>input:hover{
+    font-size: 20px;
+}
+.sizefilter>input:focus{
+    outline: none;
+}
+.sizefilter>label{
+    margin-right: 20px;
+}
+.pricefilter>input{
+    width: 60%;
+    accent-color: var(--midlight);
+    
+}
+.pricefilterrangetext{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.colorfilterpeeker{
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.colorfilterpeeker>div{
+    margin: 1px 3px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+  
+}
+.dropcolor::before
+{
+    content: "";
+    display: block;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    z-index: 100;
+    background:linear-gradient(220deg,transparent 0%49.5%,#44546A 50%,var(--dark) 64%,transparent 65%100%),
+               linear-gradient(140deg,transparent 0%49.5%,#44546A 50%,var(--dark) 64%,transparent 65%100%)  ;
+}
+.lang-curafilter{
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
+
+}
+.lang-curafilter>select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:inherit;
+}
+.lang-curafilter>select>option{
+    color: #000000;
+}
+.storeproducts
+{
+    min-height: 860px;
+    max-width: 1460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2% !important;
+    padding-bottom: 1% !important;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+@media (max-width:1920px) {
+
+    body,
+    .storeheadersec,
+    .storeproductscon{
+        width:100%;
+    }
+}
+@media (max-width:1400px) {
+    .storeproductscon
+    {
+        margin-top: -15%;
+    }
+    .filtermenu{
+        height: 100vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .filtermenu::-webkit-scrollbar-thumb{
+        background: linear-gradient(0deg,var(--mid) 0% 77%,#00000000 77% 100%);
+    }
+    .filtermenu::-webkit-scrollbar
+    {
+        background-color: var(--scrollbardark);
+    }
+}
+@media (max-width:1120px) {
+    .storeproductscon
+    {
+        margin-top: 0px;
+    }
+    .filtermenucon{
+        left: 0px;
+        position: fixed;
+        z-index: 10;
+        background-color: var(--secbg);
+    }
+}
+@media (max-width:875px) {
+    .productbox
+    {
+        width: 250px;
+        height: 250px;
+    }
+    .namebox,.pricebox{
+        font-size: 18px;
+    }
+}
+@media (max-width:608px) {
+    .productbox
+    {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (max-width:485px) {
+    .productbox
+    {
+        margin: 5px;
+        width: 190px;
+        height: 190px;
+    }
+}
+@media (max-width:418px) {
+    .productbox
+    {
+        width: 80%;
+        height: 80%;
+    }
+}
