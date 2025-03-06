@@ -78,25 +78,25 @@
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="60" alt="html5 logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" height="60" alt="css3 logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="60" alt="javascript logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="60" alt="bootstrap logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height="60" alt="react logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://reactstrap.github.io/logo-white.svg" height="60" alt="react strap logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://reactrouter.com/favicon-dark.png" height="60" alt="react router logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="60" alt="redux logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://swiperjs.com/images/swiper-logo.svg" height="60" alt="swiper logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://cdn.simpleicons.org/firebase/FFCA28" height="60" alt="firebase logo"  />
-  <img width="10" />
+  <img width="5" />
   <img src="https://www.json.org/favicon.png" height="60" alt="json logo"  />
 </div>
 
