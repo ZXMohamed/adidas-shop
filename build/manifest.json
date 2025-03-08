@@ -1,0 +1,25 @@
+{
+  "short_name": "adidas store",
+  "name": "adidas store",
+  "icons": [
+    {
+      "src": "static/media/adidaslogo.af1706ac5cc4bd0dacf3.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "static/media/adidaslogo.af1706ac5cc4bd0dacf3.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "static/media/adidaslogo.af1706ac5cc4bd0dacf3.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#222a35",
+  "background_color": "#222a35"
+}
