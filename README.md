@@ -14,6 +14,16 @@
 
 ###
 
+<p align="left"><b>Features : </b>
+  <ul>
+    <li>Auth, forget password, verify email after signup and filter products + search</li>
+    <li>User can react, comment, rate and add product to cart then show reacted and cart added products</li>
+    <li>Fast product view page + Three theme color + Responsive design</li>
+  </ul>
+</p>
+
+###
+
 <details>
 <summary>
 <b align="left">ex : </b><h6>click to open</h6>
